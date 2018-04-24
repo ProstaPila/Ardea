@@ -1,6 +1,6 @@
-# Nowa Idea website build on gatbsy.js using netlify cms. 
+# Ardea law firm website build on gatbsy.js using netlify cms. 
 
-https://nowaidea.org.pl
+https://ardea.biz.pl
 
 includes: 
 * Dynamic alice carousel for projects slider 
