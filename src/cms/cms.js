@@ -1,11 +1,19 @@
 import CMS from 'netlify-cms'
-import OfundacjiPagePreview from './preview-templates/OfundacjiPagePreview'
+import OnasPagePreview from './preview-templates/OnasPagePreview'
 import ProjektPostPreview from './preview-templates/ProjektPostPreview'
-import CelePagePreview from './preview-templates/CelePagePreview'
+import WycenyPagePreview from './preview-templates/WycenyPagePreview'
 import KontaktPagePreview from './preview-templates/KontaktPagePreview'
+import SpecjalistycznePagePreview from './preview-templates/SpecjalistycznePagePreview'
+import WspolpracaPagePreview from './preview-templates/WspolpracaPagePreview'
+import DoradzctwoPagePreview from './preview-templates/DoradzctwoPagePreview'
+import ObslugaPagePreview from './preview-templates/ObslugaPagePreview'
+
 
 CMS.registerPreviewStyle('/styles.css')
-CMS.registerPreviewTemplate('ofundacji', OfundacjiPagePreview)
+CMS.registerPreviewTemplate('specjalistyczne', SpecjalistycznePagePreview)
+CMS.registerPreviewTemplate('doradzctwo', DoradzctwoPagePreview)
+CMS.registerPreviewTemplate('wspolpraca', WspolpracaPagePreview)
+CMS.registerPreviewTemplate('onas', OnasPagePreview)
 CMS.registerPreviewTemplate('projekt', ProjektPostPreview)
-CMS.registerPreviewTemplate('cele', CelePagePreview)
+CMS.registerPreviewTemplate('wyceny', WycenyPagePreview)
 CMS.registerPreviewTemplate('kontakt', KontaktPagePreview)

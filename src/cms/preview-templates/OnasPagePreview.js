@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { CelePageTemplate } from '../../templates/cele-page'
-import '../../layouts/all.sass'
+import { OnasPageTemplate } from '../../templates/onas-page'
 
-const CelePagePreview = ({ entry, widgetFor }) => (
-  <CelePageTemplate
+const OnasPagePreview = ({ entry, widgetFor }) => (
+  <OnasPageTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
@@ -17,7 +16,8 @@ const CelePagePreview = ({ entry, widgetFor }) => (
         description: entry.getIn(['data', 'description']),
         tags: entry.getIn(['data', 'tags']),
         title: entry.getIn(['data', 'title']),
-        thumbnail: entry.getIn(['data', 'thumbnail' ])  
+        thumbnail: entry.getIn(['data', 'thumbnail' ])    
+
       }
       
 
@@ -25,12 +25,11 @@ const CelePagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-
-CelePagePreview.propTypes = {
+OnasPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default CelePagePreview
+export default OnasPagePreview

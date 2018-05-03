@@ -1,6 +1,6 @@
 ---
-templateKey: cele-page
-title: Cele
+templateKey: wyceny-page
+title: wyceny
 thumbnail: /img/background.jpg
 description: >-
   Celem Fundacji jest popieranie wszechstronnego rozwoju społeczeństwa

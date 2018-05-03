@@ -57,16 +57,16 @@ export default class IndexPage extends React.Component {
 
       <div>
       <Helmet>
-      <title> Fundacja Nowa Idea | Racjonalni Idealisci </title>
-      <meta property="og:url"                content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <title> Ardea | Kanceleria Prawna Nieruchomości </title>
+      <meta property="og:url"                content="Ardea, Kancelaria Prawna Nieruchomości" />
       <meta property="og:type"               content="website" />
-      <meta property="og:title"              content="Fundacja Idea Nowa, racjonalni idealisci" />
-      <meta property="og:description"        content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta property="og:title"              content="Ardea, Kancelaria Prawna Nieruchomości" />
+      <meta property="og:description"        content="Ardea, Kancelaria Prawna Nieruchomości" />
       <meta property="og:image"              content={config.siteLogo} />
 
-      <meta name="twitter:title" content="Fundacja Idea Nowa, racjonalni idealisci" />
-      <meta name="twitter:description" content="Fundacja Idea Nowa, racjonalni idealisci" />
-      <meta property="og:description"  content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta name="twitter:title" content="Ardea, Kancelaria Prawna Nieruchomości" />
+      <meta name="twitter:description" content="Ardea, Kancelaria Prawna Nieruchomości" />
+      <meta property="og:description"  content="Ardea, Kancelaria Prawna Nieruchomości" />
       <meta name="twitter:image" content={config.siteUrl} />
       <meta name="twitter:card" content="summary_large_image" />
 
@@ -77,9 +77,9 @@ export default class IndexPage extends React.Component {
       <div className="hero-body">
     <div className="container has-text-centered">
     <div className="biglogo">
-              <div className="fund">Fundacja:</div>
-              <div className="idea">NOWA<br></br>IDEA</div>
-              <div className="catchphrase">Idealni Racjonaliści</div>
+              <div className="fund">:</div>
+              <div className="idea">Ardea</div>
+              <div className="catchphrase">Kanceleria Prawna Nieruchomości</div>
             </div>
     </div>
   </div> 

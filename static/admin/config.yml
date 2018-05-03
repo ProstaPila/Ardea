@@ -23,11 +23,11 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/ofundacji/index.md"
-        label: "Ofundacji"
-        name: "ofundacji"
+      - file: "src/pages/onas/index.md"
+        label: "Onas"
+        name: "onas"
         fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "ofundacji-page"}
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "onas-page"}
         - {label: "Title", name: "title", widget: "string"}
         - {labal: "Featured Image", name: "thumbnail", widget: "image"}
         - {label: "Description", name: "description", widget: "string"}
@@ -41,13 +41,49 @@ collections:
         - {labal: "Featured Image", name: "thumbnail", widget: "image"}
         - {label: "Description", name: "description", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/cele/index.md"
-        label: "Cele"
-        name: "cele"
+      - file: "src/pages/wyceny/index.md"
+        label: "Wyceny"
+        name: "wyceny"
         fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cele-page"}
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "wyceny-page"}
         - {label: "Title", name: "title", widget: "string"}
         - {labal: "Featured Image", name: "thumbnail", widget: "image"}
         - {label: "Description", name: "description", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/specjalistyczne/index.md"
+        label: "Specjalistyczne"
+        name: "specjalistyczne"
+        fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "specjalistyczne-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/obsluga/index.md"
+        label: "Obsluga"
+        name: "obsluga"
+        fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "obsluga-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/doradzctwo/index.md"
+        label: "Doradzctwo"
+        name: "doradzctwo"
+        fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "doradzctwo-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/wspolpraca/index.md"
+        label: "Wspolpraca"
+        name: "wspolpraca"
+        fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "wspolpraca-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}   
         

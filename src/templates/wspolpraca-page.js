@@ -6,7 +6,7 @@ import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
 
-export const OfundacjiPageTemplate = ({ 
+export const WspolpracaPageTemplate = ({ 
   title, 
   content, 
   contentComponent, 
@@ -55,7 +55,7 @@ export const OfundacjiPageTemplate = ({
   )
 }
 
-OfundacjiPageTemplate.propTypes = {
+WspolpracaPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -63,11 +63,11 @@ OfundacjiPageTemplate.propTypes = {
   excerpt: PropTypes.string
 }
 
-const OfundacjiPage = ({ data }) => {
+const WspolpracaPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <OfundacjiPageTemplate
+    <WspolpracaPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
@@ -81,14 +81,14 @@ const OfundacjiPage = ({ data }) => {
   )
 }
 
-OfundacjiPage.propTypes = {
+WspolpracaPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default OfundacjiPage
+export default WspolpracaPage
 
-export const ofundacjiPageQuery = graphql`
-  query OfundacjiPage($id: String!) {
+export const WspolpracaPageQuery = graphql`
+  query WspolpracaPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
     html
     excerpt

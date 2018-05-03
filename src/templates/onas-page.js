@@ -6,14 +6,22 @@ import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
 
-export const CelePageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description, helmet }) => {
+export const OnasPageTemplate = ({ 
+  title, 
+  content, 
+  contentComponent, 
+  slug, 
+  postNode, 
+  thumbnail, 
+  description, 
+  helmet }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
       {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
-    <section 
+  <section 
   className="hero is-info is-small " style={{
     background: "url(" + thumbnail + ")",
     backgroundSize: "cover",
@@ -47,7 +55,7 @@ export const CelePageTemplate = ({ title, content, contentComponent, slug, postN
   )
 }
 
-CelePageTemplate.propTypes = {
+OnasPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
@@ -55,32 +63,32 @@ CelePageTemplate.propTypes = {
   excerpt: PropTypes.string
 }
 
-const CelePage = ({ data }) => {
+const OnasPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    
-    <CelePageTemplate
+    <OnasPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      postNode={data.markdownRemark}
       content={post.html}
+      postNode={data.markdownRemark}
       slug={post.fields.slug}
-      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
-      description={post.frontmatter.description}
       thumbnail={post.frontmatter.thumbnail}
+      description={post.frontmatter.description}
+      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
+      
     />
   )
 }
 
-CelePage.propTypes = {
+OnasPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default CelePage
+export default OnasPage
 
-export const celePageQuery = graphql`
- query CelePage($id: String!) {
+export const OnasPageQuery = graphql`
+  query OnasPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
     html
     excerpt

@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { OfundacjiPageTemplate } from '../../templates/ofundacji-page'
+import { ObslugaPageTemplate } from '../../templates/obsluga-page'
 
-const OfundacjiPagePreview = ({ entry, widgetFor }) => (
-  <OfundacjiPageTemplate
+const ObslugaPagePreview = ({ entry, widgetFor }) => (
+  <ObslugaPageTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
@@ -25,11 +25,11 @@ const OfundacjiPagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-OfundacjiPagePreview.propTypes = {
+ObslugaPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default OfundacjiPagePreview
+export default ObslugaPagePreview
