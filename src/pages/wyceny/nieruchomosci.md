@@ -2,15 +2,13 @@
 templateKey: wyceny-post
 title: Wycena nieruchomości
 thumbnail: /img/background.jpg
-description: chronimy wartość i własność nieruchomości
+description: >-
+  wycena mieszkań, domów, działek budowlanych, obiektów usługowych, handlowych,
+  biurowych, hoteli, gospodarstw rolnych, lasów
 ---
-Kancelaria świadczy usługi w zakresie sporządzania operatów szacunkowych oraz opinii których przedmiotem jest:
+## Kancelaria świadczy usługi w zakresie sporządzania operatów szacunkowych oraz opinii których przedmiotem jest:
 
-
-
-Wycena nieruchomości zabudowanych, w tym:
-
-
+**Wycena nieruchomości zabudowanych, w tym:**
 
 * wycena mieszkań
 * wycena lokali użytkowych
@@ -27,9 +25,7 @@ Wycena nieruchomości zabudowanych, w tym:
 * wycena zakładów przemysłowych
 * wycena gospodarstw rolnych
 
-Wycena nieruchomości niezabudowanych, w tym:
-
-
+**Wycena nieruchomości niezabudowanych, w tym:**
 
 * wycena działek budowlanych
 * wycena nieruchomości drogowych
@@ -40,9 +36,7 @@ Wycena nieruchomości niezabudowanych, w tym:
 * wycena upraw, plantacji, nasadzeń
 * wycena kopalin, złóż
 
-Również:
-
-
+**Również:**
 
 * wycena adiacencka – dla potrzeb określenia wysokości opłaty adiacenckiej
 * wycena renty planistycznej – dla potrzeb określenia wysokości opłaty z tytułu tzw. renty planistycznej
@@ -57,9 +51,7 @@ Również:
 * wycena środków trwałych
 * wycena akcji spółek
 
-Wyceny przygotowujemy dla następujących potrzeb:
-
-
+**Wyceny przygotowujemy dla następujących potrzeb:**
 
 * zabezpieczenia kredytu bankowego
 * aktualizacji opłat z tytułu użytkowania wieczystego
