@@ -2,45 +2,20 @@
 templateKey: onas-page
 title: O nas
 thumbnail: /img/background.jpg
-description: >-
- Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.
+description: chronimy wartość i własność nieruchomości
 ---
-**Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.**
+Kancelaria Prawna Nieruchomości Ardea z siedzibą w Sopocie i biurem w Warszawie, świadczy usługi w zakresie: obsługi prawnej nieruchomości, wyceny nieruchomości, doradztwa majątkowego. W skład naszego zespołu wchodzi grupa rzeczoznawców majątkowych, prawników, geodetów, inżynierów budownictwa, pośredników nieruchomości, ekonomistów, którzy występują również jako biegli sądowi w obszarze swoich specjalizacji. Przy realizacji zleceń, wymagających interdyscyplinarnej wiedzy, współpracujemy ze specjalistami m.in. z zakresu architektury i urbanistyki, administracji, rolnictwa, ochrony środowiska.
 
-Podejmujemy wspólnie z przedstawicielami świata nauki, kultury, biznesu i polityki działania, których celem jest znalezienie wizji tożsamości polskiej i współczesnego patriotyzmu w nowym wieku, podkreślenie korelacji pomiędzy planami życiowymi poszczególnych jednostek, a projektami wzmacniającymi pozycję państwa i społeczeństwa, uwypuklenie obszaru, który w życiu wielu ludzi jest ważny, a zarazem wspólny z innymi. Korzystając z dorobku naszych przodków warto na nowo wyrazić aspiracje i marzenia współczesnych pokoleń w sposób przystępny i możliwy do identyfikacji dla ogółu społeczeństwa.
+Założycielem kancelarii jest Tomasz Luterek, prawnik i rzeczoznawca majątkowy, który łączy praktykę z działalnością naukową. Jest absolwentem Wydziału Prawa Uniwersytetu Gdańskiego, ukończył studia podyplomowe z zakresu wyceny nieruchomości na Politechnice Szczecińskiej, z obszaru nauk politycznych w Collegium Civitas w Warszawie. Promotorami jego prac naukowych byli prof. Władysław Czapliński oraz prof. Andrzej Hopfer.  W Instytucie Studiów Politycznych Polskiej Akademii Nauk w Warszawie napisał pracę doktorską dotyczącą reprywatyzacji pod kierunkiem prof. Piotra Kozarzewskiego. W opracowaniach naukowych wypowiada się za likwidacją opłaty adiacenkiej z tytułu podziału nieruchomości. Optuje za gruntownym zreformowaniem prawa użytkowania wieczystego i wykorzystania go jako źródła majątku dla zaspokojenia roszczeń reprywatyzacyjnych. Należy do grona zwolenników fundamentalnej zmiany istniejących form weryfikacji pracy rzeczoznawców majątkowych.
 
-Mamy nadzieję zachęcić jak największe grono wizjonerów do artykułowania własnych pomysłów, tak by stworzyć jak najciekawszy, atrakcyjny projekt, znajdujący bardzo szerokie poparcie społeczne, stający się częścią myśli zbiorowej.
+W okresie ostatnich dwudziestu lat, wspólnie z Przedsiębiorstwem Geodezyjnym Krzysztofa Luterka, wykonaliśmy kilkanaście tysięcy wycen dla różnych celów i na zlecenie całego spektrum podmiotów występujących na rynku.
 
-W ramach naszych działań aktualnie skupiamy się na trzech projektach:
+Specjalizujemy się w wycenach dla potrzeb aktualizacji opłat z tytułu użytkowania wieczystego, określania opłat z tytułu renty planistycznej, odszkodowań za nieruchomości przejmowane pod realizację inwestycji celu publicznego, w tym zwłaszcza nieruchomości wywłaszczanych pod drogi i linie kolejowe. W sposób szczególny traktujemy wyceny nieruchomości kolejowych, gdyż stanowią swoiste połączenie zamiłowania do kolejnictwa i aktualnej działalności zawodowej. Podobnie rzecz wygląda w przypadku wycen reprywatyzacyjnych, dotyczących obiektów zabytkowych. Wśród naszych opracowań można znaleźć operaty dotyczące tak unikalnych obiektów historycznych jak Pałac Wielkich Mistrzów na Zamku Krzyżackim w Malborku, czy pomenonickie obszary łąk nadmorskich powstałe na planie tzw. rzędówki bagiennej w Karwieńskich Błotach.
 
-* PATRIOTKA NOC 
-* NIEPODLEGŁOŚCI 10.11
-* REPRYWATYZACJA 
+Z gruntu twardo stąpamy po ziemi, dlatego od kilkunastu lat szacujemy, głównie dla potrzeb Agencji Nieruchomości Rolnych, wartość nieruchomości gruntowych o charakterze rolnym.
 
-Trzy kolejne są w fazie przygotowawczej:
+Osobną grupę stanowią wyceny opracowywane dla potrzeb sądów, komorników i kancelarii prawnych. W naszym zespole posiadamy biegłych sądowych z wieloletnim doświadczeniem. W ramach obsługi prawnej naszych klientów skutecznie broniliśmy określonej przez nas wartości nieruchomości w kilkuset rozprawach administracyjnych, postępowaniach przed samorządowymi kolegiami odwoławczymi i sądami powszechnymi.
 
-* TRZY ZDANIA O POLSCE
-* JAN JAŹWIŃSKI 
-* KONWENTYKIEL POLSKICH LUTERKÓW z okazji 500-lecia wystąpienie Marcina Lutra
+W ramach aktywnego zaangażowania w obszarze  problematyki związanej z rozwojem i kształtowaniem procesów obejmujących rynek nieruchomości uczestniczymy w pracach Towarzystwa Naukowego Nieruchomości, Polskiej Federacji Stowarzyszeń Rzeczoznawców Majątkowych, Pomorskiego Towarzystwa Rzeczoznawców Majątkowych, Pomorskiego Konsorcjum Rzeczoznawców Majątkowych. Byliśmy uczestnikami kilkudziesięciu konferencji tematycznych, korzystamy ze stałego dostępu do największej i najaktualniejszej bazy nieruchomości.
 
-**Dane Fundacji:**  
-Numer w Krajowym Rejestrze Sądowym KRS: 0000441173  
-Nr NIP: 957-106-70-83  
-nr REGON: 221789396  
-Adres siedziby:  
-ul.: Jesionowa 11/7
-80-261 Gdańsk   
-
-
-**Numer rachunku bankowego:**  
-18 1240 1242 1111 0010 4875 8245  
-Bank Polska Kasa Opieki Spółka Akcyjna
-
-**Zarząd Fundacji:**  
-Tomasz Luterek – Prezes  
-Małgorzata Koprowska
-
-**Rada Fundacji:**  
-Marcin Jabłonowski – Przewodniczący  
-Artur Kotulski  
-Bartosz Luterek
+**Kancelaria jest ubezpieczona od odpowiedzialności cywilnej z tytułu prowadzonej działalności.**
