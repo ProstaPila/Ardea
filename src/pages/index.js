@@ -77,9 +77,12 @@ export default class IndexPage extends React.Component {
       <div className="hero-body">
     <div className="container has-text-centered">
     <div className="biglogo">
-              <div className="fund">połączenie wiedzy specjalistów</div>
-              <div className="idea">Ardea</div>
-              <div className="catchphrase">Kanceleria Prawna Nieruchomości</div>
+              
+              <div className="abovelogo" >Kancelaria Prawna Nieruchomości</div>
+              <div className="idea">ardea</div>
+              <div className="catchphrase">Obsługa prawna oraz wycena
+              </div>
+              <div className="fund">chronimy wartość i własność nieruchomości</div>
             </div>
     </div>
   </div> 

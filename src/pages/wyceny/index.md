@@ -1,7 +1,7 @@
 ---
 templateKey: wyceny-page
 title: Wyceny
-thumbnai: /img/background.jpg
+thumbnail: /img/background.jpg
 description: >-
   chronimy wartość i własność nieruchomości
 ---

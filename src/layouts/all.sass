@@ -8,7 +8,11 @@ $spaceout-invert: #fff
 $spaceout-border: rgba(70, 87, 152, 0.3)
 $primary: $spaceout-blue
 $primary-invert: $spaceout-invert
+$text-color: #282f37
 
+section 
+  background-image: url('../img/greyzz.png')
+  background-repeat: repeat
 
 .logoicon
   overflow: visible
@@ -21,7 +25,6 @@ $primary-invert: $spaceout-invert
 
 @media (min-width:986px)
   .container.has-text-centered 
-    border: 1px solid whitesmoke
     padding: 2em 4em
 
   .alice-carousel__prev-btn-item
@@ -89,19 +92,19 @@ $primary-invert: $spaceout-invert
 
   .mycontent
     padding: 2em 4em
-    border: 1px solid $spaceout-border
+    
 
   .biglogo 
     margin: auto
     display: flex
     flex-direction: column
     align-items: start
-    font-family: 'Roboto', sans-serif
+    font-family: 'Open Sans', sans-serif
     text-align: left
 
     .idea
       font-size: 6.4em 
-      color: whitesmoke
+      color: $text-color
       font-weight: bold
 
     
@@ -109,11 +112,12 @@ $primary-invert: $spaceout-invert
 
     .catchphrase 
       font-size: 2em
-      color: white
+      color: $text-color
 
     .fund 
       font-size: 1.4em
-      color: whitesmoke
+      color: $text-color
+      
       
 
   
@@ -122,21 +126,21 @@ $primary-invert: $spaceout-invert
   .biglogo 
     
     
-    font-family: 'Roboto', sans-serif
+    font-family: 'Open Sans', sans-serif
 
     .idea
       font-size: 3em 
-      color: whitesmoke
+      color: $text-color
       font-weight: bold
       
 
     .catchphrase 
       font-size: 1em
-      color: white
+      color: $text-color
 
     .fund 
       font-size: 0.8em
-      color: whitesmoke
+      color: $text-color
           
 
 
