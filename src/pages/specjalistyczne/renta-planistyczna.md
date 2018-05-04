@@ -1,6 +1,6 @@
 ---
 templateKey: specjalistyczne-post
-title: renta planistyczna
+title: Renta planistyczna
 thumbnail: /img/background.jpg
 description: >-
   pomoc prawna i doradztwo, ustalenie i weryfikacja wysokości opłat z tytułu
