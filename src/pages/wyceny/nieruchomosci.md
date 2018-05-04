@@ -1,6 +1,6 @@
 ---
 templateKey: wyceny-post
-title: Nieruchomośi
+title: Nieruchomości
 thumbnail: /img/background.jpg
 description: chronimy wartość i własność nieruchomości
 ---
