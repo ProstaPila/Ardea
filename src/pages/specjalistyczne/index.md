@@ -6,24 +6,20 @@ description: chronimy wartość i własność nieruchomości
 ---
 
 
-**opłata adiacencka**
-
+**opłata adiacencka**  
 pomoc prawna i doradztwo, ustalenie i weryfikacja wysokości opłaty adiacenckiej
 
 
 
-**renta planistyczna**
-
+**renta planistyczna**  
 pomoc prawna i doradztwo, ustalenie i weryfikacja wysokości opłat z tytułu renty planistycznej
 
 
 
-**użytkowanie wieczyste**
-
+**użytkowanie wieczyste**  
 pomoc prawna i doradztwo, ustalenie i weryfikacja wysokości opłaty rocznej z tytułu użytkowania wieczystego
 
 
 
-**reprywatyzacja**
-
+**reprywatyzacja**  
 pomoc prawna i doradztwo, w odniesieniu do nieruchomości: znacjonalizowanych, wywłaszczonych, przejętych bezprawnie
