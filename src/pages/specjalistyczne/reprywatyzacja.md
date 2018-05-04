@@ -1,6 +1,6 @@
 ---
 templateKey: specjalistyczne-post
-title: reprywatyzacja
+title: Reprywatyzacja
 thumbnail: /img/background.jpg
 description: >-
   pomoc prawna i doradztwo, w odniesieniu do nieruchomości: znacjonalizowanych,
