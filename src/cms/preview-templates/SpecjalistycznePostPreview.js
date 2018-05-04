@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { SpecjalistycznePostTemplate } from '../../templates/specjalistyczne-post'
 
 const SpecjalistycznePostPreview = ({ entry, widgetFor }) => (
-  <SpecjalistycznePageTemplate
+  <SpecjalistycznePostTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
@@ -24,11 +24,11 @@ const SpecjalistycznePostPreview = ({ entry, widgetFor }) => (
   />
 )
 
-SpecjalistycznePagePreview.propTypes = {
+SpecjalistycznePostPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default SpecjalistycznePagePreview
+export default SpecjalistycznePostPreview

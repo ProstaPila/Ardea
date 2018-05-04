@@ -4,7 +4,7 @@ import { WycenyPostTemplate } from '../../templates/wyceny-post'
 import '../../layouts/all.sass'
 
 const WycenyPostPreview = ({ entry, widgetFor }) => (
-  <WycenyPageTemplate
+  <WycenyPostTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
@@ -24,11 +24,11 @@ const WycenyPostPreview = ({ entry, widgetFor }) => (
 )
 
 
-WycenyPagePreview.propTypes = {
+WycenyPostPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default WycenyPagePreview
+export default WycenyPostPreview
