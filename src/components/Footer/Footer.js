@@ -13,16 +13,19 @@ const Footer = () => (
 
         
         <div className="column">
+          <figure className="image logofooter">
+            <img src={logo} alt="Ardea, Kancelraia Prawna Nieruchomości" />
+            <div className="kancelaria">Kancelaria Prawna Nieruchomości</div>
+            </figure>
           <div className="logofoot">
-        <Link to="/" >
-          <figure className="image is-64x64">
-            <img src={logo} alt="Fundacja Idea Nowa"  />
-          </figure>
-        </Link>
+        <div className="details">
+        <a href="tel:501761361"><b>tel:</b> 501 761 361 </a><br /> 
+        <a href="tel:501761361"><b>fax:</b> 58 355 53 09 </a><br /> 
+        <a href="mailto: kancelaria@ardea.biz.pl"><b>e-mail:</b>  kancelaria@ardea.biz.pl </a></div>
 
-         <p>NOWA IDEA<br />
-         ul. Jesionowa 11/7<br />
-         80-261 Gdańsk </p>
+         
+         
+         
 
         </div>
         </div>
@@ -31,9 +34,12 @@ const Footer = () => (
         
 
        
-        <p><a href="tel:583418894"><b>tel:</b> 583 418 894 </a> <br />
-        <a href="tel:501761361"><b>kom:</b> 501 761 361</a><br />  
-        <a href="mailto:fundacja@nowaidea.org.pl"><b>e-mail:</b> fundacja@nowaidea.org.pl</a></p>
+       <p><b>Sopot</b><br />ul. Armii Krajowej 137A/12
+          <br />
+81-824 Sopot<br />
+tel. 58 341 88 94, <br /> 58 355 53 00 <br />
+fax 58 355 53 09 <br />
+kom. 501 761 361 </p>
          </div> 
       </div>
       <div className="column">
@@ -41,12 +47,12 @@ const Footer = () => (
         
 
         
-        
-        <a href="mailto:fundacja@nowaidea.org.pl" className="navbar-item" >
-          <figure className="image is-24x24">
-            <img src={mail} alt="Fundacja Nowa Idea"  />
-          </figure>
-        </a>
+        <p><b>Warszawa</b><br />
+         ul. Racławicka 99<br />
+          02-634 Warszawa <br />
+          tel./fax 22 844 18 24<br />
+          kom. 501 761 361
+         </p> 
         
          </div> 
       </div>
@@ -56,21 +62,31 @@ const Footer = () => (
     <div className="column">
   <div className="container">
           <div className="menu">
-          <Link  to="/">
-            Strona Głowna
-          </Link>
-        <Link  to="/projekty">
-            Projekty
-          </Link>
-          <Link to="/ofundacji">
-            O fundacji
-          </Link>
-          <Link  to="/cele">
-            Cele
-          </Link>
-          <Link  to="/kontakt">
-            Kontakt
-          </Link>
+          <Link className="navbar-item" to="/">
+          Strona Głowna
+        </Link>
+      <Link className="navbar-item" to="/onas"  >
+          O nas
+        </Link>
+        <Link className="navbar-item" to="/wyceny"   >
+          Wyceny
+        </Link>
+        <Link className="navbar-item" to="/specjalistyczne"   >
+          Specjalistyczne
+        </Link>
+        <Link className="navbar-item" to="/obsluga"   >
+          Obsuga prawna
+        </Link>
+        <Link className="navbar-item" to="/doradzctwo"   >
+          Doradzctwo
+        </Link>
+        <Link className="navbar-item" to="/wspolpraca"   >
+          Wspolpraca 
+        </Link>
+
+        <Link className="navbar-item" to="/kontakt"  >
+          Kontakt
+        </Link>
           </div>
         </div>
         </div>

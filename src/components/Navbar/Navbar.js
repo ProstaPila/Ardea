@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import logo from '../../img/logosmall.png'
+import logo from '../../img/justlogo.png'
 import fb from '../../img/fb.svg'
 import twitter from '../../img/twitter.svg'
 import './Navbar.sass'
@@ -31,6 +31,9 @@ class Navbar extends Component {
     <div className="container">
     
       <div className="navbar-brand">
+      <figure className="image is-32x32 logonav">
+        <img src={logo} alt="Ardea Kancelria Prawna" />
+        </figure>
       <button className={['button navbar-burger', css].join(" ")} data-target='navMenu' onClick={this.toggleNav.bind(this)}>
           <span />
           <span />

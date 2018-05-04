@@ -1,27 +1,46 @@
-$footer: whitesmoke
+$footer: white
+$text-color: #4f4f4f
+$text-size: 0.8em
+
+.kancelaria 
+  width: 300px
+  margin-bottom: 0.7em
+
+.details 
+  a 
+    color: $text-color
+    font-size: $text-size
+
+.logofooter 
+  img 
+    max-width: 128px
   
 @media (min-width:1022px)
+  .footerlogo
+    padding: 0 0 1em 0
+
   footer
     padding: 4em 0
     background-color: $footer
-    border: 5px solid white
+    
   
     .logofoot
      display: flex
      align-items: center
+     justify-content: space-between
   
      
     .menu
       display: flex
       justify-content: center
-      border: 1px solid white
+      
       a
-        color: #4f4f4f
-        font-size: 0.8em
+        color: $text-color
+        font-size: $text-size
         padding: 1em
     p
-      color: #4f4f4f
-      font-size: 0.8em
+      color: $text-color
+      font-size: $text-size
       margin: 0 10px
 
   .flexbox
@@ -29,7 +48,7 @@ $footer: whitesmoke
     justify-content: center
 
     a 
-      color: #4f4f4f
+      color: $text-color
 
 
 @media (max-width:1022px)
@@ -53,15 +72,15 @@ $footer: whitesmoke
       justify-content: center
       margin: 0 5px
       a
-        color: #4f4f4f
-        font-size: 0.9em
+        color: $text-color
+        font-size: $text-size
         padding: 0.5em
         text-align: center
         
 
     p 
-      color: #4f4f4f
-      font-size: 1em
+      color: $text-color
+      font-size: $text-size
       margin-left: 20px
   
   .flexbox
@@ -69,4 +88,4 @@ $footer: whitesmoke
     justify-content: center
 
     a 
-      color: #4f4f4f
+      color: $text-color
