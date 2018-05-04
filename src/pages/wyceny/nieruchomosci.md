@@ -1,6 +1,6 @@
 ---
-templateKey: specjalistyczne-page
-title: Specjalistyczne
+templateKey: wyceny-post
+title: Nieruchomośi
 thumbnail: /img/background.jpg
 description: chronimy wartość i własność nieruchomości
 ---

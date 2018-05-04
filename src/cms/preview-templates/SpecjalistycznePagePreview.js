@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { SpecjalistycznePageTemplate } from '../../templates/specjalistyczne-page'
+import { SpecjalistycznePageTemplate } from '../../templates/specjalistyczne-post'
 
 const SpecjalistycznePagePreview = ({ entry, widgetFor }) => (
   <SpecjalistycznePageTemplate

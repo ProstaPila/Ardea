@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { WycenyPageTemplate } from '../../templates/wyceny-page'
+import { WycenyPageTemplate } from '../../templates/wyceny-post'
 import '../../layouts/all.sass'
 
 const WycenyPagePreview = ({ entry, widgetFor }) => (

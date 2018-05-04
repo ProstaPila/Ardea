@@ -1,6 +1,5 @@
 import CMS from 'netlify-cms'
 import OnasPagePreview from './preview-templates/OnasPagePreview'
-import ProjektPostPreview from './preview-templates/ProjektPostPreview'
 import WycenyPagePreview from './preview-templates/WycenyPagePreview'
 import KontaktPagePreview from './preview-templates/KontaktPagePreview'
 import SpecjalistycznePagePreview from './preview-templates/SpecjalistycznePagePreview'
@@ -14,6 +13,5 @@ CMS.registerPreviewTemplate('specjalistyczne', SpecjalistycznePagePreview)
 CMS.registerPreviewTemplate('doradzctwo', DoradzctwoPagePreview)
 CMS.registerPreviewTemplate('wspolpraca', WspolpracaPagePreview)
 CMS.registerPreviewTemplate('onas', OnasPagePreview)
-CMS.registerPreviewTemplate('projekt', ProjektPostPreview)
 CMS.registerPreviewTemplate('wyceny', WycenyPagePreview)
 CMS.registerPreviewTemplate('kontakt', KontaktPagePreview)

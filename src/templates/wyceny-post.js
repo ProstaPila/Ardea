@@ -2,19 +2,30 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
-import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
+import SEO from '../components/SEO/seo';
 
-export const WycenyPageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description, helmet }) => {
-  const PageContent = contentComponent || Content
+export const WycenyPostTemplate = ({
+  content,
+  contentComponent,
+  description,
+  title,
+  helmet,
+  thumbnail,
+  slug,
+  postNode,
+  postPath
+}) => {
+  const PostContent = contentComponent || Content
 
   return (
     <div>
-      {helmet}
+    {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
     <section 
-  className="hero is-info is-small " style={{
+  className="hero is-info is-medium " style={{
     background: "url(" + thumbnail + ")",
     backgroundSize: "cover",
     backgroundPosition: "bottom"
@@ -25,20 +36,24 @@ export const WycenyPageTemplate = ({ title, content, contentComponent, slug, pos
            <div className="column"> 
             <div className="mytitle">
               {title}
+              
               </div>
+              <p>{description}</p>
           </div>
   </div>
   </div>
   </div>
 </section>
-    <section className="section section--gradient">
-      <div className="container">
+    <section className="section">
+      
+    
+      <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="section">
-              
-              <PageContent className="content" content={content} />
-            </div>
+          
+            
+            <PostContent content={content} />
+           
           </div>
         </div>
       </div>
@@ -47,51 +62,52 @@ export const WycenyPageTemplate = ({ title, content, contentComponent, slug, pos
   )
 }
 
-WycenyPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
+WycenyPostTemplate.propTypes = {
+  content: PropTypes.string.isRequired,
   contentComponent: PropTypes.func,
-  slug: PropTypes.string,
-  excerpt: PropTypes.string
+  description: PropTypes.string,
+  title: PropTypes.string,
+  helmet: PropTypes.instanceOf(Helmet),
 }
 
-const WycenyPage = ({ data }) => {
+const WycenyPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    
-    <WycenyPageTemplate
-      contentComponent={HTMLContent}
-      title={post.frontmatter.title}
-      postNode={data.markdownRemark}
+    <WycenyPostTemplate
       content={post.html}
-      slug={post.fields.slug}
-      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
+      contentComponent={HTMLContent}
       description={post.frontmatter.description}
+      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
+      title={post.frontmatter.title}
+      slug={post.fields.slug}
       thumbnail={post.frontmatter.thumbnail}
+      postNode={post}
+      postPath={post.fields.slug}
     />
   )
 }
 
-WycenyPage.propTypes = {
-  data: PropTypes.object.isRequired,
+WycenyPost.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+  }),
 }
 
-export default WycenyPage
+export default WycenyPost
 
-export const wycenyPageQuery = graphql`
- query WycenyPage($id: String!) {
+export const pageQuery = graphql`
+  query WycenyPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
-    html
-    excerpt
-    fields {
-      slug
-    }
+      id
+      html
+      fields {
+            slug
+          }
       frontmatter {
         title
         thumbnail
         description
-        
         
       }
     }

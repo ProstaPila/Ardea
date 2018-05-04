@@ -7,19 +7,30 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "projekt"
-    label: "Projekt"
-    folder: "src/pages/projekt"
+  - name: "wyceny"
+    label: "Wyceny"
+    folder: "src/pages/wyceny"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "projekt-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "wyceny-post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+        {labal: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      
+  - name: "specjalistyczne"
+    label: "Specjalistyczne"
+    folder: "src/pages/specjalistyczne"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "specjalistyczne-post"}
+      - {label: "Title", name: "title", widget: "string"}
       - {labal: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      
   - name: "pages"
     label: "Pages"
     files:
@@ -37,24 +48,6 @@ collections:
         name: "kontakt"
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "kontakt-page"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/wyceny/index.md"
-        label: "Wyceny"
-        name: "wyceny"
-        fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "wyceny-page"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/specjalistyczne/index.md"
-        label: "Specjalistyczne"
-        name: "specjalistyczne"
-        fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "specjalistyczne-page"}
         - {label: "Title", name: "title", widget: "string"}
         - {labal: "Featured Image", name: "thumbnail", widget: "image"}
         - {label: "Description", name: "description", widget: "string"}

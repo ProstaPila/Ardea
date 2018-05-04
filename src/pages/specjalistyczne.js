@@ -4,10 +4,10 @@ import Link from 'gatsby-link'
 import thumbnail from '../img/background.jpg'
 
 
-export default class ProjektyPage extends React.Component {
+export default class SpecjalistycznePage extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: projekt } = data.allMarkdownRemark
+    const { edges: specjalistyczne } = data.allMarkdownRemark
     
     return (
       <div>
@@ -22,7 +22,7 @@ export default class ProjektyPage extends React.Component {
       <div className="columns">
            <div className="column"> 
             <div className="mytitle">
-            Nasze Projekty
+            Nasze Specjalistyczne
               </div>
           </div>
   </div>
@@ -32,26 +32,26 @@ export default class ProjektyPage extends React.Component {
       <section className="section">
         <div className="container">
           
-          {projekt
-            .filter(projekt => projekt.node.frontmatter.templateKey === 'projekt-post')
-            .map(({ node: projekt }) => (
+          {specjalistyczne
+            .filter(specjalistyczne => specjalistyczne.node.frontmatter.templateKey === 'specjalistyczne-post')
+            .map(({ node: specjalistyczne}) => (
               <div
                 className="content"
                 style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                key={projekt.id}
+                key={specjalistyczne.id}
               >
                 <p>
-                  <Link className="has-text-primary" to={projekt.fields.slug}>
-                    {projekt.frontmatter.title}
+                  <Link className="has-text-primary" to={specjalistyczne.fields.slug}>
+                    {specjalistyczne.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
-                  <small>{projekt.frontmatter.date}</small>
+                  
                 </p>
                 <p>
-                  {projekt.excerpt}
+                  {specjalistyczne.excerpt}
                   <br />
                   <br />
-                  <Link className="button is-small" to={projekt.fields.slug}>
+                  <Link className="button is-small" to={specjalistyczne.fields.slug}>
                     Czytaj Więcej →
                   </Link>
                 </p>
@@ -64,7 +64,7 @@ export default class ProjektyPage extends React.Component {
   }
 }
 
-ProjektyPage.propTypes = {
+SpecjalistycznePage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -73,8 +73,8 @@ ProjektyPage.propTypes = {
 }
 
 export const pageQuery = graphql`
-  query ProjektyQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+  query SpecjalistyczneQuery {
+    allMarkdownRemark {
       edges {
         node {
           excerpt(pruneLength: 400)
@@ -85,7 +85,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             templateKey
-            date(formatString: "MMMM DD, YYYY", locale: "pl")
+            
           }
         }
       }

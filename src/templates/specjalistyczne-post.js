@@ -7,16 +7,14 @@ import Content, { HTMLContent } from '../components/Content'
 import config from "../../data/SiteConfig";
 import SEO from '../components/SEO/seo';
 
-export const ProjektPostTemplate = ({
+export const SpecjalistycznePostTemplate = ({
   content,
   contentComponent,
   description,
-  tags,
   title,
   helmet,
   thumbnail,
   slug,
-  date,
   postNode,
   postPath
 }) => {
@@ -55,19 +53,7 @@ export const ProjektPostTemplate = ({
           
             
             <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <p>{date}</p>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+            
           </div>
         </div>
       </div>
@@ -76,7 +62,7 @@ export const ProjektPostTemplate = ({
   )
 }
 
-ProjektPostTemplate.propTypes = {
+SpecjalistycznePostTemplate.propTypes = {
   content: PropTypes.string.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -84,36 +70,34 @@ ProjektPostTemplate.propTypes = {
   helmet: PropTypes.instanceOf(Helmet),
 }
 
-const ProjektPost = ({ data }) => {
+const SpecjalistycznePost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <ProjektPostTemplate
+    <SpecjalistycznePostTemplate
       content={post.html}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
       helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
-      tags={post.frontmatter.tags}
       title={post.frontmatter.title}
       slug={post.fields.slug}
       thumbnail={post.frontmatter.thumbnail}
-      date={post.frontmatter.date}
       postNode={post}
       postPath={post.fields.slug}
     />
   )
 }
 
-ProjektPost.propTypes = {
+SpecjalistycznePost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default ProjektPost
+export default SpecjalistycznePost
 
 export const pageQuery = graphql`
-  query ProjektPostByID($id: String!) {
+  query SpecjalistycznePostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -121,11 +105,10 @@ export const pageQuery = graphql`
             slug
           }
       frontmatter {
-        date(formatString: "MMMM DD, YYYY", locale: "pl")
         title
         thumbnail
         description
-        tags
+        
       }
     }
   }
