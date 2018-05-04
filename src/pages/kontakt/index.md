@@ -9,16 +9,19 @@ description: >-
   upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu
   codziennym.
 ---
-**IDEA NOWA**\
-**ul. Jesionowa 11/7,**\
-**80-261 Gdańsk**
+## Warszawa
 
-**tel: 58 341 88 94**\
-**kom 501 761 361**\
-**e-mail: fundacja@nowaidea.org.pl**
+ul. Racławicka 99\
+02-634 Warszawa\
+**tel./fax** 22 844 18 24\
+**kom.** 501 761 361\
+**email** <mailto:kancelaria@ardea.biz.pl>
 
-Tomasz Luterek\
-tel: 0-501 761 361
+## Trójmiasto
 
-Małgorzata Koprowska\
-tel: 0-510 144 533
+ul. Armii Krajowej 137A/12\
+81-824 Sopot\
+**tel.** 58 341 88 94, 58 355 53 00\
+**fax** 58 355 53 09\
+**kom.** 501 761 361\
+**email** <mailto:kancelaria@ardea.biz.pl>
