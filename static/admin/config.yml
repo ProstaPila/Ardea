@@ -61,15 +61,6 @@ collections:
         - {labal: "Featured Image", name: "thumbnail", widget: "image"}
         - {label: "Description", name: "description", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/obsluga/index.md"
-        label: "Obsluga"
-        name: "obsluga"
-        fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "obsluga-page"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {labal: "Featured Image", name: "thumbnail", widget: "image"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/doradzctwo/index.md"
         label: "Doradzctwo"
         name: "doradzctwo"
