@@ -5,7 +5,7 @@ import KontaktPagePreview from './preview-templates/KontaktPagePreview'
 import SpecjalistycznePostPreview from './preview-templates/SpecjalistycznePostPreview'
 import WspolpracaPagePreview from './preview-templates/WspolpracaPagePreview'
 import DoradzctwoPagePreview from './preview-templates/DoradzctwoPagePreview'
-import ObslugaPagePreview from './preview-templates/ObslugaPagePreview'
+import ObslugaPostPreview from './preview-templates/ObslugaPostPreview'
 
 
 CMS.registerPreviewStyle('/styles.css')
@@ -15,3 +15,4 @@ CMS.registerPreviewTemplate('wspolpraca', WspolpracaPagePreview)
 CMS.registerPreviewTemplate('onas', OnasPagePreview)
 CMS.registerPreviewTemplate('wyceny', WycenyPostPreview)
 CMS.registerPreviewTemplate('kontakt', KontaktPagePreview)
+CMS.registerPreviewTemplate('obsluga', ObslugaPostPreview)
