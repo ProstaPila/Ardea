@@ -71,19 +71,19 @@ SpecjalistycznePostTemplate.propTypes = {
 }
 
 const SpecjalistycznePost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: specjalistyczne } = data
 
   return (
     <SpecjalistycznePostTemplate
-      content={post.html}
+      content={specjalistyczne.html}
       contentComponent={HTMLContent}
-      description={post.frontmatter.description}
-      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
-      title={post.frontmatter.title}
-      slug={post.fields.slug}
-      thumbnail={post.frontmatter.thumbnail}
-      postNode={post}
-      postPath={post.fields.slug}
+      description={specjalistyczne.frontmatter.description}
+      helmet={<Helmet title={`${specjalistyczne.frontmatter.title} | ${config.siteTitle}`}/>}
+      title={specjalistyczne.frontmatter.title}
+      slug={specjalistyczne.fields.slug}
+      thumbnail={specjalistyczne.frontmatter.thumbnail}
+      postNode={specjalistyczne}
+      postPath={specjalistyczne.fields.slug}
     />
   )
 }

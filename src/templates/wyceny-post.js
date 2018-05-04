@@ -71,19 +71,19 @@ WycenyPostTemplate.propTypes = {
 }
 
 const WycenyPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: wyceny } = data
 
   return (
     <WycenyPostTemplate
-      content={post.html}
+      content={wyceny.html}
       contentComponent={HTMLContent}
-      description={post.frontmatter.description}
-      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
-      title={post.frontmatter.title}
-      slug={post.fields.slug}
-      thumbnail={post.frontmatter.thumbnail}
-      postNode={post}
-      postPath={post.fields.slug}
+      description={wyceny.frontmatter.description}
+      helmet={<Helmet title={`${wyceny.frontmatter.title} | ${config.siteTitle}`}/>}
+      title={wyceny.frontmatter.title}
+      slug={wyceny.fields.slug}
+      thumbnail={wyceny.frontmatter.thumbnail}
+      postNode={wyceny}
+      postPath={wyceny.fields.slug}
     />
   )
 }

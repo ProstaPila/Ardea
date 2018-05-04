@@ -9,7 +9,7 @@ const WycenyPagePreview = ({ entry, widgetFor }) => (
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
     postPath={entry.getIn(['data', 'slug'])}
-    slug={entry.getIn(['fields', 'slug'])}
+    slug={entry.getIn(['data', 'slug'])}
     description={entry.getIn(['data', 'description'])}
     helmet={entry.getIn(['data', 'title'])}
     postNode={{
@@ -17,8 +17,7 @@ const WycenyPagePreview = ({ entry, widgetFor }) => (
         description: entry.getIn(['data', 'description']),
         title: entry.getIn(['data', 'title']),
         thumbnail: entry.getIn(['data', 'thumbnail' ])  
-      }
-      
+      }   
 
       }}
   />
