@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { SpecjalistycznePageTemplate } from '../../templates/specjalistyczne-post'
+import { SpecjalistycznePostTemplate } from '../../templates/specjalistyczne-post'
 
-const SpecjalistycznePagePreview = ({ entry, widgetFor }) => (
+const SpecjalistycznePostPreview = ({ entry, widgetFor }) => (
   <SpecjalistycznePageTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
