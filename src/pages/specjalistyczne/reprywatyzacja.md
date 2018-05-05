@@ -6,6 +6,6 @@ description: >-
   pomoc prawna i doradztwo, w odniesieniu do nieruchomości: znacjonalizowanych,
   wywłaszczonych, przejętych bezprawnie
 ---
-**reprywatyzacja**
+**reprywatyzacja**
 
 pomoc prawna i doradztwo, w odniesieniu do nieruchomości: znacjonalizowanych, wywłaszczonych, przejętych bezprawnie

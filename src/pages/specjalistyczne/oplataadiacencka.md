@@ -1,10 +1,10 @@
 ---
 templateKey: specjalistyczne-post
-title: opłata adiacencka
+title: Opłata adiacencka
 thumbnail: /img/background.jpg
 description: >-
   opłata adiacencka pomoc prawna i doradztwo, ustalenie i weryfikacja wysokości
   opłaty adiacenckiej
 ---
-**opłata adiacencka**\
+**opłata adiacencka**
 pomoc prawna i doradztwo, ustalenie i weryfikacja wysokości opłaty adiacenckiej

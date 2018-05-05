@@ -33,139 +33,168 @@ export default class IndexPage extends React.Component {
       <meta name="twitter:image" content={config.siteUrl} />
       <meta name="twitter:card" content="summary_large_image" />
 
-</Helmet>
+      </Helmet>
       
 
       <section className="hero is-fullheight myhero">
-      <div className="hero-body">
-    <div className="container has-text-centered">
-    <div className="biglogo">
-              
-              <div className="abovelogo" >Kancelaria Prawna Nieruchomości</div>
-              <div className="idea">ardea</div>
-              <div className="catchphrase">Obsługa prawna oraz wycena
-              </div>
-              <div className="fund">chronimy wartość i własność nieruchomości</div>
-            </div>
-    </div>
-  </div> 
-           
-      
+       <div className="hero-body">
+        <div className="container has-text-centered">
+          <div className="biglogo">
+            <div className="abovelogo" >Kancelaria Prawna Nieruchomości</div>
+            <div className="idea">ardea</div>
+            <div className="catchphrase">Obsługa prawna oraz wycena</div>
+            <div className="fund">chronimy wartość i własność nieruchomości</div>
+          </div>
+        </div>
+       </div> 
       </section>
+
       <section className="section">
         <div className="container">
+          <div className="columns">
+             <div className="column">
+                <div className="content">
+                  <h1 className="has-text-weight-bold is-size-2">Wycena</h1>
+                </div>
+             </div>
+          </div>
+          <div className="columns">
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'wyceny-post')
+              .map(({ node: post }) => (
+                <div className="column">
+                  <div className="content mycontent" key={post.id}>
+                    <p>
+                      <Link className="has-text-primary" to={post.fields.slug}>
+                       {post.frontmatter.title}
+                      </Link>
+                    </p>
+                    <p>
+                      {post.excerpt}
+                      <br />
+                      <br />
+                      <Link className="button is-small" to={post.fields.slug}>
+                        Czytaj Więcej →
+                      </Link>
+                    </p>
+                  </div>
+                </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-                 
-
-        <div className="columns">
-           <div className="column">
-          <div className="content">
-                     <h1 className="has-text-weight-bold is-size-2">Nasze Projekty</h1>
-          </div>
-          </div>
-          </div>
-          
+      <section className="section">
+        <div className="container">
           
           <div className="columns">
-           
-          
-       </div></div>
-        </section>
+             <div className="column">
+                <div className="content">
+                  <h1 className="has-text-weight-bold is-size-2">Specjalistyczne</h1>
+                </div>
+             </div>
+          </div>
 
-      
-      <section className="section">
-      <div className="container">
-      <div className="columns">
-           <div className="column">
-
-             {posts
-            .filter(post => post.node.frontmatter.templateKey === 'onas-page')
-            .map(({ node: post}) => (
-              <div
-                className="content mycontent"
-                key={post.id}
-              >
-                <p>
-                  <Link className="has-text-primary" to={post.fields.slug}>
-                    {post.frontmatter.title}
-                  </Link>
-                  
-                </p>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button is-small" to={post.fields.slug}>
-                    Czytaj Więcej →
-                  </Link>
-                </p>
-              </div>
+          <div className="columns">     
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'specjalistyczne-post')
+              .map(({ node: post }) => (
+                <div className="column">
+                  <div className="content mycontent" key={post.id}>
+                    <p>
+                      <Link className="has-text-primary" to={post.fields.slug}>
+                        {post.frontmatter.title}
+                      </Link>
+     
+                    </p>
+                    <p>
+                      {post.excerpt}
+                      <br />
+                      <br />
+                      <Link className="button is-small" to={post.fields.slug}>
+                        Czytaj Więcej →
+                      </Link>
+                    </p>
+                  </div>
+                </div>
             ))}
 
-            </div>
+          </div>
+        </div>
+     </section>
 
-            <div className="column">
-
-{posts
-.filter(post => post.node.frontmatter.templateKey === 'wyceny-post')
-.map(({ node: post }) => (
- <div
-   className="content mycontent"
-   key={post.id}
- >
-   <p>
-     <Link className="has-text-primary" to={post.fields.slug}>
-       {post.frontmatter.title}
-     </Link>
-     
-   </p>
-   <p>
-     {post.excerpt}
-     <br />
-     <br />
-     <Link className="button is-small" to={post.fields.slug}>
-       Czytaj Więcej →
-     </Link>
-   </p>
- </div>
-))}
-
-</div>
-            </div>
-
-
-      <div className="columns">
-           <div className="column">
-           <div className="column">
-
-{posts
-.filter(post => post.node.frontmatter.templateKey === 'specjalistyczne-post')
-.map(({ node: post }) => (
- <div
-   className="content mycontent"
-   key={post.id}
- >
-   <p>
-     <Link className="has-text-primary" to={post.fields.slug}>
-       {post.frontmatter.title}
-     </Link>
-     
-   </p>
-   <p>
-     {post.excerpt}
-     <br />
-     <br />
-     <Link className="button is-small" to={post.fields.slug}>
-       Czytaj Więcej →
-     </Link>
-   </p>
- </div>
-))}
-
-</div>
-             </div></div>
+     <section className="section">
+        <div className="container">
+          
+          <div className="columns">
+             <div className="column">
+                <div className="content">
+                  <h1 className="has-text-weight-bold is-size-2">Obsługa</h1>
+                </div>
              </div>
-      </section>
+          </div>
+
+          <div className="columns">     
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'obsluga-post')
+              .map(({ node: post }) => (
+                <div className="column">
+                  <div className="content mycontent" key={post.id}>
+                    <p>
+                      <Link className="has-text-primary" to={post.fields.slug}>
+                        {post.frontmatter.title}
+                      </Link>
+     
+                    </p>
+                    <p>
+                      {post.excerpt}
+                      <br />
+                      <br />
+                      <Link className="button is-small" to={post.fields.slug}>
+                        Czytaj Więcej →
+                      </Link>
+                    </p>
+                  </div>
+                </div>
+            ))}
+
+          </div>
+        </div>
+     </section>
+
+    <section className="section"> 
+      <div className="container">
+
+        <div className="columns">
+             <div className="column">
+                <div className="content">
+                  <h1 className="has-text-weight-bold is-size-2">O Nas</h1>
+                </div>
+             </div>
+          </div>
+
+        <div className="columns">
+          <div className="column">
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'onas-page')
+              .map(({ node: post}) => (
+                <div className="content mycontent" key={post.id} >
+                  
+                  <p>
+                    {post.excerpt}
+                    <br />
+                    <br />
+                    <Link className="button is-small" to={post.fields.slug}>
+                      Czytaj Więcej →
+                    </Link>
+                  </p>
+                </div>
+              ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
       </div>
     )
   }
