@@ -23,9 +23,8 @@ export const WspolpracaPageTemplate = ({
     <SEO postPath={slug} postNode={postNode} postSEO />
   <section 
   className="hero is-info is-small " style={{
-    background: "url(" + thumbnail + ")",
-    backgroundSize: "cover",
-    backgroundPosition: "bottom"
+    backgroundImage: "url(" + thumbnail + ")",
+   
       }}>
   <div className="hero-body">
     <div className="container">

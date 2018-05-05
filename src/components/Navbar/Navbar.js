@@ -7,7 +7,20 @@ import './Navbar.sass'
 
 class Navbar extends Component {
  
-  state= { active: false};
+  state= { 
+    active: false,
+    isTop: true
+  
+  };
+
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 300;
+      if (isTop !== this.state.isTop) {
+          this.setState({ isTop })
+      }
+    });
+  }
 
     
   toggleNav() {
@@ -18,6 +31,12 @@ class Navbar extends Component {
   }
 
   render(){
+
+    let style = 'navbar is-fixed-top transparent'
+
+if(!this.state.isTop) {
+  style = ['navbar is-fixed-top', 'white' ].join(' ');
+};
   
     let css = "";
     let trans = "is-close"
@@ -27,7 +46,7 @@ class Navbar extends Component {
     }
 
   return(
-  <nav className='navbar is-fixed-top' aria-label='main navigation'>
+  <nav className={style} aria-label='main navigation'>
     <div className="container">
     
       <div className="navbar-brand">

@@ -54,7 +54,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-2">Wycena</h1>
+                  <h1 className="has-text-weight-bold is-size-1 underline">Wycena</h1>
                 </div>
              </div>
           </div>
@@ -62,8 +62,8 @@ export default class IndexPage extends React.Component {
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'wyceny-post')
               .map(({ node: post }) => (
-                <div className="column">
-                  <div className="content mycontent" key={post.id}>
+                <div className="column" key={post.id}>
+                  <div className="content mycontent" >
                     <p>
                       <Link className="has-text-primary" to={post.fields.slug}>
                        {post.frontmatter.title}
@@ -74,7 +74,7 @@ export default class IndexPage extends React.Component {
                       <br />
                       <br />
                       <Link className="button is-small" to={post.fields.slug}>
-                        Czytaj Więcej →
+                        Czytaj Więcej
                       </Link>
                     </p>
                   </div>
@@ -90,7 +90,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-2">Specjalistyczne</h1>
+                  <h1 className="has-text-weight-bold is-size-1 underline">Specjalistyczne</h1>
                 </div>
              </div>
           </div>
@@ -99,8 +99,8 @@ export default class IndexPage extends React.Component {
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'specjalistyczne-post')
               .map(({ node: post }) => (
-                <div className="column">
-                  <div className="content mycontent" key={post.id}>
+                <div className="column" key={post.id}>
+                  <div className="content mycontent">
                     <p>
                       <Link className="has-text-primary" to={post.fields.slug}>
                         {post.frontmatter.title}
@@ -112,7 +112,7 @@ export default class IndexPage extends React.Component {
                       <br />
                       <br />
                       <Link className="button is-small" to={post.fields.slug}>
-                        Czytaj Więcej →
+                        Czytaj Więcej 
                       </Link>
                     </p>
                   </div>
@@ -129,7 +129,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-2">Obsługa</h1>
+                  <h1 className="has-text-weight-bold is-size-1 underline">Obsługa</h1>
                 </div>
              </div>
           </div>
@@ -138,8 +138,8 @@ export default class IndexPage extends React.Component {
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'obsluga-post')
               .map(({ node: post }) => (
-                <div className="column">
-                  <div className="content mycontent" key={post.id}>
+                <div className="column" key={post.id}>
+                  <div className="content mycontent" >
                     <p>
                       <Link className="has-text-primary" to={post.fields.slug}>
                         {post.frontmatter.title}
@@ -151,7 +151,7 @@ export default class IndexPage extends React.Component {
                       <br />
                       <br />
                       <Link className="button is-small" to={post.fields.slug}>
-                        Czytaj Więcej →
+                        Czytaj Więcej
                       </Link>
                     </p>
                   </div>
@@ -168,7 +168,7 @@ export default class IndexPage extends React.Component {
         <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-2">O Nas</h1>
+                  <h1 className="has-text-weight-bold is-size-1 underline">O Nas</h1>
                 </div>
              </div>
           </div>
@@ -185,7 +185,7 @@ export default class IndexPage extends React.Component {
                     <br />
                     <br />
                     <Link className="button is-small" to={post.fields.slug}>
-                      Czytaj Więcej →
+                      Czytaj Więcej 
                     </Link>
                   </p>
                 </div>
@@ -216,7 +216,7 @@ query IndexQuery {
         
         node {
           
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 300)
           id
           children {
             id

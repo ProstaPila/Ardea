@@ -26,9 +26,8 @@ export const ObslugaPostTemplate = ({
     <SEO postPath={slug} postNode={postNode} postSEO />
     <section 
   className="hero is-info is-medium " style={{
-    background: "url(" + thumbnail + ")",
-    backgroundSize: "cover",
-    backgroundPosition: "bottom"
+    backgroundImage: "url(" + thumbnail + ")",
+    
       }}>
   <div className="hero-body">
     <div className="container">

@@ -4,29 +4,52 @@
 // Config vars
 $spaceout-blue: #363636
 $spaceout-invert: #fff
-$spaceout-border: rgba(70, 87, 152, 0.3)
+$spaceout-border: #b8d8e7
 $primary: $spaceout-blue
 $primary-invert: $spaceout-invert
 $text-color: #282f37
 
+.catchphrase 
+  border-bottom: 1px solid white
+
+.hero-body 
+  p 
+    color: $text-color
 
 .logoicon
   overflow: visible
 
+.button 
+  border: 0px !important
+  border-radius: 0 !important
+  background: $spaceout-border !important
+  font-family: 'Playfair Despair', serif
 
+.fund 
+  font-family:  'Playfair Despair', serif
+
+.button:hover 
+  background: #fff !important
+  transition: 0.5s
 
 @media (min-width:986px)
   .container.has-text-centered 
     padding: 2em 4em
 
+  
 
 
 
-.alice-carousel 
-   padding: 15px 
+.underline
+  border-bottom: 1px solid $spaceout-border
 
 .has-text-primary
   font-weight: bold
+  text-transform: uppercase
+  text-align: center
+  padding-bottom: 1em
+  margin-bottom: 1em
+  
 
 .content .taglist
   list-style: none
@@ -70,17 +93,27 @@ $text-color: #282f37
 .mytitle
   padding-top: 2em 
   font-size: 5em
-  color: whitesmoke
+  color: $text-color
+  border-bottom: 1px solid white
+
+  p
+    color: $text-color
 
 
   
 
 @media (min-width: 986px)
   section.hero.is-info.is-small 
-    
+    background-size: 140%
+    background-position: top-right
 
   .mycontent
     padding: 2em 0.8em
+
+   
+    p:last-child
+      padding-top: 1em
+      
     
 
   .biglogo 
