@@ -54,7 +54,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-1 underline">Wycena</h1>
+                  <h1 className="has-text-weight-bold is-size-2 underline">Wycena</h1>
                 </div>
              </div>
           </div>
@@ -90,7 +90,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-1 underline">Specjalistyczne</h1>
+                  <h1 className="has-text-weight-bold is-size-2 underline">Specjalistyczne</h1>
                 </div>
              </div>
           </div>
@@ -129,7 +129,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-1 underline">Obsługa</h1>
+                  <h1 className="has-text-weight-bold is-size-2 underline">Obsługa</h1>
                 </div>
              </div>
           </div>
@@ -168,7 +168,7 @@ export default class IndexPage extends React.Component {
         <div className="columns">
              <div className="column">
                 <div className="content">
-                  <h1 className="has-text-weight-bold is-size-1 underline">O Nas</h1>
+                  <h1 className="has-text-weight-bold is-size-2 underline">O Nas</h1>
                 </div>
              </div>
           </div>
