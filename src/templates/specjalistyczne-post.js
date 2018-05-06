@@ -25,7 +25,7 @@ export const SpecjalistycznePostTemplate = ({
     {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
     <section 
-  className="hero is-info is-medium " style={{
+  className="hero is-info is-small" style={{
     backgroundImage: "url(" + thumbnail + ")",
     
       }}>

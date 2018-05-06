@@ -2,6 +2,15 @@ $footer: white
 $text-color: #4f4f4f
 $text-size: 0.8em
 
+.spaceout 
+  display: flex
+  justify-content: center
+  border-top: 1px solid #b8d8e7
+  padding-top: 1em 
+
+  
+
+
 .kancelaria 
   width: 300px
   margin-bottom: 0.7em
@@ -15,7 +24,13 @@ $text-size: 0.8em
   img 
     max-width: 128px
   
-@media (min-width:1022px)
+@media (min-width:986px)
+  .forfooter 
+    margin-top: 1em !important
+    border-top: 1px solid #b8d8e7
+    padding-top: 0.75em
+    
+    
   .footerlogo
     padding: 0 0 1em 0
 
@@ -31,8 +46,10 @@ $text-size: 0.8em
   
      
     .menu
+      
       display: flex
       justify-content: center
+      
       
       a
         color: $text-color
@@ -51,7 +68,7 @@ $text-size: 0.8em
       color: $text-color
 
 
-@media (max-width:1022px)
+@media (max-width:986px)
   footer
     padding: 4em 0
     background-color: $footer
@@ -66,9 +83,10 @@ $text-size: 0.8em
       margin: 5px 5px 
     
     .menu
+      padding-top: 1em
       display: flex
       flex-direction: column
-      border: 1px solid white
+      border-top: 1px solid #b8d8e7
       justify-content: center
       margin: 0 5px
       a
@@ -81,7 +99,10 @@ $text-size: 0.8em
     p 
       color: $text-color
       font-size: $text-size
-      margin-left: 20px
+      margin-left: 27%
+      width: 100%
+
+   
   
   .flexbox
     display: flex
@@ -89,3 +110,18 @@ $text-size: 0.8em
 
     a 
       color: $text-color
+  
+  .logofooter
+    display: flex !important
+    justify-content: center
+    flex-direction: column
+    align-content: center
+
+    img 
+      margin: auto
+    
+    .kancelaria 
+      margin: auto
+      margin: 2em 0
+      width: 100%
+      text-align: center

@@ -58,7 +58,7 @@ kom. 501 761 361 </p>
       </div>
       </div>
   </div>
-  <div className="columns">
+  <div className="columns forfooter">
     <div className="column">
   <div className="container">
           <div className="menu">
@@ -94,9 +94,9 @@ kom. 501 761 361 </p>
 
   <div className="columns">
     <div className="column">
-  <p style={{ textAlign: 'center', color: '#4f4f4f'}}>
+  <div className="spaceout">
   <small>Designed by spaceout.pl</small>
-  </p>
+  </div>
   </div>
   </div>
   </footer>

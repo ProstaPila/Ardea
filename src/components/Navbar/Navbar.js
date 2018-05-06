@@ -65,29 +65,29 @@ if(!this.state.isTop) {
       
        
       <Link className="navbar-item" to="/"  onClick={this.closeNav.bind(this)}>
-          Strona Głowna
+          Strona Głowna 
         </Link>
       <Link className="navbar-item" to="/onas"  onClick={this.closeNav.bind(this)}>
-          O nas
+          O nas 
         </Link>
         <Link className="navbar-item" to="/wyceny"  onClick={this.closeNav.bind(this)} >
-          Wyceny
+          Wyceny 
         </Link>
         <Link className="navbar-item" to="/specjalistyczne"  onClick={this.closeNav.bind(this)} >
-          Specjalistyczne
+          Specjalistyczne 
         </Link>
         <Link className="navbar-item" to="/obsluga"  onClick={this.closeNav.bind(this)} >
-          Obsuga prawna
+          Obsuga prawna 
         </Link>
         <Link className="navbar-item" to="/doradzctwo"  onClick={this.closeNav.bind(this)} >
-          Doradzctwo
+          Doradzctwo 
         </Link>
         <Link className="navbar-item" to="/wspolpraca"  onClick={this.closeNav.bind(this)} >
           Wspolpraca 
         </Link>
 
         <Link className="navbar-item" to="/kontakt"  onClick={this.closeNav.bind(this)}>
-          Kontakt
+          Kontakt 
         </Link>
       </div>
       <div className="navbar-end">
