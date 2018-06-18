@@ -14,7 +14,7 @@ const Footer = () => (
         
         <div className="column">
           <figure className="image logofooter">
-            <img src={logo} alt="Ardea, Kancelraia Prawna Nieruchomości" />
+            <div className="smallidea">ardea</div>
             <div className="kancelaria">Kancelaria Prawna Nieruchomości</div>
             </figure>
           <div className="logofoot">

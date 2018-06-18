@@ -51,7 +51,7 @@ if(!this.state.isTop) {
     
       <div className="navbar-brand">
       <figure className="image is-32x32 logonav">
-        <img src={logo} alt="Ardea Kancelria Prawna" />
+      <div className="smallidea">ardea</div>
         </figure>
       <button className={['button navbar-burger', css].join(" ")} data-target='navMenu' onClick={this.toggleNav.bind(this)}>
           <span />
