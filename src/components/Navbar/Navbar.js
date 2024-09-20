@@ -80,7 +80,7 @@ if(!this.state.isTop) {
           Obsuga prawna 
         </Link>
         <Link className="navbar-item" to="/doradzctwo"  onClick={this.closeNav.bind(this)} >
-          Doradzctwo 
+          Doradztwo 
         </Link>
         <Link className="navbar-item" to="/wspolpraca"  onClick={this.closeNav.bind(this)} >
           Wspolpraca 
