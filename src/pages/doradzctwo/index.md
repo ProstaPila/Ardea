@@ -1,6 +1,6 @@
 ---
 templateKey: doradzctwo-page
-title: Doradzctwo
+title: Doradztwo
 thumbnail: /img/background.jpg
 description: chronimy wartość i własność nieruchomości
 ---
