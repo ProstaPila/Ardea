@@ -78,10 +78,10 @@ kom. 501 761 361 </p>
           Obsuga prawna
         </Link>
         <Link className="navbar-item" to="/doradzctwo"   >
-          Doradzctwo
+          Doradztwo
         </Link>
         <Link className="navbar-item" to="/wspolpraca"   >
-          Wspolpraca 
+          Współpraca 
         </Link>
 
         <Link className="navbar-item" to="/kontakt"  >
