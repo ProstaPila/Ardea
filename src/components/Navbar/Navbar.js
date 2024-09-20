@@ -83,7 +83,7 @@ if(!this.state.isTop) {
           Doradztwo 
         </Link>
         <Link className="navbar-item" to="/wspolpraca"  onClick={this.closeNav.bind(this)} >
-          Wspolpraca 
+          Współpraca 
         </Link>
 
         <Link className="navbar-item" to="/kontakt"  onClick={this.closeNav.bind(this)}>
