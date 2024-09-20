@@ -1,6 +1,6 @@
 ---
 templateKey: wspolpraca-page
-title: Wspołpraca
+title: Współpraca
 thumbnail: /img/background.jpg
 description: chronimy wartość i własność nieruchomości
 ---
